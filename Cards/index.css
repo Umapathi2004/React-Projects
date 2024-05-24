@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body{
+    width: 100dvw;
+    height: 100dvh;
+    overflow-x: hidden;
+    background-color: antiquewhite;
+  }
+  .cardbody{
+    background-color:#353b48;
+    width:300px;
+    height:inherit;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    user-select: none;
+  }
+  .line{
+    font-size: .8em;
+    position: relative;
+    display: flex;
+  }
+  .online{
+    background-color:rgba(7, 250, 173, 0.751);
+    width: 50px;
+    color: rgb(255, 253, 248);
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+  }
+  .offline{
+    background-color:rgba(7, 31, 38, 0.751);
+    width: 50px;
+    color: rgb(255, 253, 248);
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+  }
+  .cardbody img{
+    width: 130px;
+    height:130px;
+    object-fit: cover;
+    border-radius: 50%;
+    user-select: none;
+    -webkit-user-drag: none;
+    border: 2px solid rgb(255, 253, 248);
+    padding: 5px;
+  }
+  .username{
+    font-size: 1.5em;
+    color:rgb(255, 253, 248);
+    font-weight: 300;
+  }
+  .userplace{
+    font-size: 1em;
+    color:rgb(255, 253, 248);
+    font-weight: 300;
+  }
+  .department{
+    font-size: 1em;
+    color:rgb(255, 253, 248);
+    font-weight: 300;
+    margin-top: 20px;
+  }
+  #root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+    margin-top: 20px;
+    flex-wrap:wrap;
+    gap:20px;
+  
+  }
+  .message,.following{
+    all:unset;
+    font-size: 1em;
+    font-weight: 400;
+    width: inherit;
+    height:inherit;
+    background-color:rgba(0, 93, 207, 0.749);
+    border-radius:3px;
+    padding: 5px 10px;
+    color: rgb(255, 253, 248);
+    margin: 20px 10px;
+    border: 2px solid rgb(0, 93, 207, 0.749);
+  }
+  .outline{
+    background-color: transparent;
+  }
+  ul li{
+    list-style: none;
+  }
+  .listofskills{
+    width: auto;
+    height: inherit;
+    background-color: #282d3888;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .skills{
+    display: flex;
+    align-items: start;
+    color:rgb(255, 253, 248);
+    font-size: .8em;
+    font-weight: 350;
+  }
+  .allskills{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap:10px
+  }
+  ul li{
+    font-size: .8em;
+    color: rgb(255, 253, 248);
+    border:1px solid #555f72;
+    padding: 3px 5px 3px 5px;
+    border-radius: 3px;
+  }
