@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body{
+    width: 100dvw;
+    height:100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .qrbody{
+    width: 350px;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    display: block;
+  }
+  .upperbody{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .qrbody .heading{
+    font-size: 1.5em;
+    font-weight: 600;
+    color:rgb(1, 142, 109);
+    border-bottom: 1px solid rgb(1, 142, 109);
+  }
+  label{
+    display: block;
+    margin: 10px 0px;
+    font-size: 1em;
+    font-weight: 600;
+    color: rgb(1, 142, 109);
+  }
+  input[type="url"],input[type="number"]{
+    width: inherit;
+    height: 40px;
+    padding: 5px;
+    font-size: 1em;
+    color: #444444;
+    font-family: 600;
+    border-radius: 5px;
+    border:2px solid rgb(1, 142, 109);
+    outline: none;
+  }
+  input:focus{
+    border: 2px solid rgb(0, 80, 62);
+  }
+  .qrbody img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    object-fit: cover;
+    -webkit-user-drag: none;
+    user-select: none;
+    padding: 8px;
+    border-radius: 12px;
+    box-shadow: rgba(0,0,0,0.07) 0px 2px 2px,rgba(0,0,0,0.07) 0px 2px 2px,rgba(0,0,0,0.07) 0px 4px 4px,rgba(0,0,0,0.07)
+               0px 8px 8px,rgba(0,0,0,0.07) 0px 16px 16px;
+  }
+  button{
+    width: inherit;
+    height: inherit;
+    padding: 10px;
+    margin: 10px 10px 0px 0px ;
+    background-color: rgba(1, 142, 109);
+    font-size: 1em;
+    color:aliceblue;
+    border: 2px solid rgba(1, 142, 109);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .8s;
+    user-select: none;
+  }
+  button:hover{
+    color: #444444;
+    background-color: transparent;
+  }
+  .generater:disabled,.download:disabled{
+    cursor: not-allowed;
+  }
+  .loading{
+    padding: 20px;
+    color: rgb(1, 142, 109);
+  }
