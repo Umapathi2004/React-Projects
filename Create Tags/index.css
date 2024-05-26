@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body{
+    width:100dvw;
+    height: 100dvh;
+    background:linear-gradient(45deg,rgb(0, 211, 91),rgb(0, 191, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    width: inherit;
+    height: inherit;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .container input{
+    font-size: 1em;
+    font-weight: 500;
+    width: 200px;
+    padding: 10px;
+    color: rgb(82, 84, 86);
+    background-color: transparent;
+    border-radius: 5px;
+    border:2px solid rgba(240, 248, 255, 0.44);
+    outline: none;
+    margin-right: 10px;
+  }
+  .container input:focus{
+    border:2px solid rgba(240, 248, 255, 0.769);
+  }
+  .container button{
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 5px;
+    color: rgb(82, 84, 86);
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.44);
+    border:2px solid rgba(240, 248, 255, 0.44);
+    outline: none;
+    transition: .8s;
+  }
+  .container button:hover{
+    background-color:  rgba(240, 248, 255, 0.769);
+  }
+  .heading{
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: rgba(240, 248, 255, 0.769);
+  }
+  .TagsCollection{
+    padding: 20px 0px;
+    width: inherit;
+    width: 250px;
+  }
+  .TagsCollection ul{
+    list-style: none;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .TagsCollection ul li{
+    color:rgb(82, 84, 86);
+    font-size: 1em;
+    font-weight: 500;
+    background-color: rgba(240, 248, 255, 0.44);
+    width: inherit;
+    height: inherit;
+    padding: 5px 7px;
+    border-radius: 5px;
+  }
