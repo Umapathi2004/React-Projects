@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body{
+    width:100dvw;
+    height:100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A7BEAE;
+  }
+  .card{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #FFF4E1;
+    display: flex;
+    gap:10px;
+  }
+  .card .box{
+    width: 400px;
+    height: inherit;
+  }
+  .card .box img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+  }
+  .card .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px
+  }
+  .card .content input{
+    width:300px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #A7BEAE;
+    font-size: 1em;
+    font-weight: 460;
+    color: #393738;
+  }
+  .card .content label{
+    font-size: 1em;
+    font-weight: 500;
+    color: #393738a8;
+  }
+  .card .content .heading{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 5px 0px;
+    color: #A7BEAE;
+  }
+  .card .content .buttons button{
+    padding: 7px;
+    font-size: 1em;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    background-color: #A7BEAE;
+    color: #E7E8D1;
+    margin: 0 10px 0 0;
+    border-radius: 3px;
+    border: 2px solid #A7BEAE;
+    transition: .8s;
+  }
+  .card .content .buttons button:hover{
+    background-color:#E7E8D1;
+    color: #A7BEAE;
+  }
+  .errorMessage{
+    color:rgba(255, 0, 0, 0.579);
+    font-size: 1em;
+    font-weight: 500;
+    height: 20px;
+  }
+  .result{
+    width: auto;
+    height: auto;
+    background-color: #A7BEAE;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .bmivalue,.bmistatus{
+    font-size: 1em;
+    font-weight: 500;
+    padding: 10px 0;
+    color: #E7E8D1;
+  }
