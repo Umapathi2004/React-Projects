@@ -1,4 +1,4 @@
-import React, { useState } from 'reac'
+import React, { useState } from 'react'
 
 const Faqs=({qus,ans})=>{
     const [active,setActive]=useState(false);
