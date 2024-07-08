@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body{
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(163, 83, 238);
+  }
+  .conatiner{
+     width: 400px;
+     padding: 20px;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     gap:20px;
+     background-color: #ffff;
+     border-radius: 3px;
+  }
+  .heading{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(163, 83, 238);
+    text-transform: uppercase;
+  }
+  .passlabel{
+    font-size: 1.1em;
+    font-weight: 600;
+    color: rgb(55, 53, 53);
+  }
+  input[type="number"]{
+    padding: 8px;
+    border: 2px solid rgba(55, 53, 53, 0.399);
+    outline: none;
+    border-radius: 3px;
+    color:rgba(55, 53, 53, 0.72);
+    font-size: 1em;
+    font-weight: 500;
+  }
+  .includes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .includes div{
+    display: flex;
+    align-items: center;
+  }
+  .includes div label{
+    color:rgb(55, 53, 53);
+    font-size: 1em;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  #generate{
+    padding: 8px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #ffff;
+    background-color: rgb(163, 83, 238);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    width:fit-content;
+    cursor: pointer;
+  }
+  input[type='checkbox'] {
+    accent-color: rgb(163, 83, 238);
+  }
+  .copy-view{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .copy-view input{
+    padding: 8px;
+    border-top: 2px solid rgba(55, 53, 53, 0.399);
+    border-bottom: 2px solid rgba(55, 53, 53, 0.399);
+    border-left: 2px solid rgba(55, 53, 53, 0.399);
+    border-right: 2px solid rgb(163, 83, 238);
+    outline: none;
+    border-radius: 3px 0 0 3px;
+    color:rgba(55, 53, 53, 0.72);
+    font-size: 1em;
+    font-weight: 500;
+    width: inherit;
+  }
+  .copy-view #copy{
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #ffff;
+    background-color: rgb(163, 83, 238);
+    border: none;
+    outline: none;
+    border-radius:0  3px 3px 0;
+    width:fit-content;
+    cursor: pointer;
+  }
