@@ -1,0 +1,79 @@
+ 
+  *{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body{
+    width:100dvw;
+    height:100dvh;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 5, 44);
+  }
+  .currency-container{
+    background-color: #ffff;
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .currency-container h2{
+    font-size: 2em;
+    font-weight: 500;
+    color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px dotted #39353583;
+    border-bottom: 2px dotted #39353583;
+    margin-bottom: 20px;
+  }
+  input,select{
+    padding: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    color: #393535;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    border: 1.5px solid #39353583;
+    margin-bottom: 20px;
+  }
+  input{
+    width: 300.36px;
+  }
+  select{
+    width: 313.36px;
+  }
+  label{
+    font-size: 1em;
+    color: #393535;
+    width: 200px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .result{
+    width: 313.36px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px dotted blueviolet;
+    margin-top: 30px;
+  }
+  .result p{
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #393535b1;
+    overflow: hidden;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+  }
